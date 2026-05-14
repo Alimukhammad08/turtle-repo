@@ -6,8 +6,60 @@
 }
 
 header {
-  width: 1200px;
+  max-width: 1200px;
   height: 700px;
-  background-color: rgb(0, 17, 255);
   margin: auto;
+}
+header .head1 {
+  width: 1200px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .head1 .t1 {
+  width: 231px;
+  height: 22px;
+  color: #7b7b7b;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  gap: 6px;
+}
+header .head1 .phone {
+  font-weight: 500;
+  font-size: 15px;
+  width: 202px;
+  height: 31px;
+}
+header .head1 .but1 {
+  width: 195px;
+  height: 36px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(#3BB96D, #279A59);
+}
+header nav {
+  width: 1195px;
+  height: 38px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .t2 {
+  width: 954px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #7b7b7b;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .img1 {
+  width: 145px;
+  height: 38px;
 }/*# sourceMappingURL=style.css.map */
