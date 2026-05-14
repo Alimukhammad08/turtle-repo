@@ -12,7 +12,7 @@ header {
 }
 header .head1 {
   width: 1200px;
-  height: 69px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,4 +62,115 @@ header nav .t2 {
 header nav .img1 {
   width: 145px;
   height: 38px;
+}
+header .gov {
+  width: 1190px;
+  height: 17px;
+  display: flex;
+  margin: auto;
+  margin-top: 27px;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 8px;
+}
+header .head2 {
+  max-width: 1200px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+header .head2 .baza {
+  width: 1200px;
+  height: 373px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+header .head2 .cr {
+  width: 587px;
+  height: 373px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+header .head2 .cr .ova {
+  width: 330px;
+  height: 350px;
+  padding-left: 20px;
+}
+header .head2 .cr .ova h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+header .head2 .cr .ova p {
+  font-size: 17px;
+  font-weight: 400;
+}
+header .head2 .cr .ova h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+header .head2 .cr .heisen {
+  width: 310px;
+  height: 255px;
+  padding-top: 45px;
+}
+header .head2 .cr {
+  background-color: #37B369;
+}
+header .head2 .cr .buts {
+  width: 170px;
+  height: 38px;
+  color: #39B76C;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+header .head2 .cr2 {
+  width: 587px;
+  height: 373px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+header .head2 .cr2 .ova {
+  width: 330px;
+  height: 350px;
+  padding-left: 20px;
+}
+header .head2 .cr2 .ova h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+header .head2 .cr2 .ova p {
+  font-size: 17px;
+  font-weight: 400;
+}
+header .head2 .cr2 .ova h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+header .head2 .cr2 .heisen {
+  width: 310px;
+  height: 255px;
+  padding-top: 45px;
+}
+header .head2 .cr2 {
+  background-color: #27C7D9;
+}
+header .head2 .cr2 .buts {
+  width: 170px;
+  height: 38px;
+  color: #39B76C;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

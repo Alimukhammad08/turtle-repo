@@ -1,4 +1,57 @@
 $gr: #7b7b7b;
+$green: #37b36d;
+$dark: #1a2b3c;
+$mut: #4a5568;
+$bd: #1e1e1e;
+
+@mixin butt {
+    width: 170px;
+    height: 38px;
+    color: #39B76C;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@mixin card {
+    width: 587px;
+    height: 373px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+
+    .ova {
+        width: 330px;
+        height: 350px;
+        padding-left: 20px;
+    }
+
+    .ova h2 {
+        font-size: 28px;
+        font-weight: 700;
+
+    }
+
+    .ova p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .ova h3 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .heisen {
+        width: 310px;
+        height: 255px;
+        padding-top: 45px;
+    }
+}
 
 * {
     margin: 0;
@@ -14,7 +67,7 @@ header {
 
     .head1 {
         width: 1200px;
-        height: 69px;
+        height: 72px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -72,5 +125,45 @@ header {
         }
     }
 
-    
+    .gov {
+        width: 1190px;
+        height: 17px;
+        display: flex;
+        margin: auto;
+        margin-top: 27px;
+        font-size: 15px;
+        font-weight: 500;
+        gap: 8px;
+    }
+
+    .head2 {
+        max-width: 1200px;
+        height: 500px;
+        margin: auto;
+        margin-top: 50px;
+
+        .baza{
+            width: 1200px;
+            height: 373px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .cr {
+            @include card;
+            background-color: #37B369;
+            .buts {
+                @include butt;
+            }
+        }
+
+        .cr2 {
+            @include card;
+            background-color: #27C7D9;
+            .buts {
+                @include butt;
+            }
+        }
+    }
 }
