@@ -1,14 +1,13 @@
 $gr: #7b7b7b;
 $green: #37b36d;
 $dark: #1a2b3c;
-$mut: #4a5568;
-$bd: #1e1e1e;
+$w: white;
 
 @mixin butt {
     width: 170px;
     height: 38px;
-    color: #39B76C;
-    background-color: white;
+    color: $green;
+    background-color: $w;
     border: none;
     border-radius: 30px;
     font-size: 14px;
@@ -20,7 +19,7 @@ $bd: #1e1e1e;
     height: 373px;
     display: flex;
     align-items: center;
-    color: white;
+    color: $w;
     margin-top: 50px;
     border-radius: 5px;
 
@@ -50,6 +49,38 @@ $bd: #1e1e1e;
         width: 310px;
         height: 255px;
         padding-top: 45px;
+    }
+}
+
+@mixin min {
+    width: 365px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: $w;
+
+    .cd {
+        width: 318px;
+        height: 181px;
+        margin: auto;
+        margin-top: 35px;
+        align-items: center;
+
+        .cd p {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .ura {
+        width: 80px;
+        height: 80px;
+    }
+
+    .trt{
+        width: 317px;
+        height: 81px;
+        margin-top: 30px;
     }
 }
 
@@ -94,7 +125,7 @@ header {
             height: 36px;
             font-weight: 400;
             font-size: 14px;
-            color: white;
+            color: $w;
             border: none;
             border-radius: 30px;
             background: linear-gradient(#3BB96D, #279A59);
@@ -142,17 +173,18 @@ header {
         margin: auto;
         margin-top: 50px;
 
-        .baza{
+        .baza {
             width: 1200px;
             height: 373px;
             display: flex;
             justify-content: center;
             gap: 30px;
         }
-        
+
         .cr {
             @include card;
             background-color: #37B369;
+
             .buts {
                 @include butt;
             }
@@ -161,9 +193,35 @@ header {
         .cr2 {
             @include card;
             background-color: #27C7D9;
+
             .buts {
                 @include butt;
             }
         }
+    }
+}
+
+section {
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 165px;
+
+    h1 {
+        font-size: 43px;
+        font-weight: 700;
+    }
+
+    .osnova {
+        width: 1200px;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 120px;
+    }
+
+    .mini{
+        @include min;
     }
 }
